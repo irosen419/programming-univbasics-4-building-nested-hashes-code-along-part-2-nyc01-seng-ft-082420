@@ -1,3 +1,5 @@
+require 'pry'
+
 def update_status
    epic_tragedy = {
       :montague => {
@@ -74,6 +76,5 @@ def add_characters
 
    # After your code, the following line will return the altered hash
    epic_tragedy
+   binding.pry
 end
-
-puts epic_tragedy
