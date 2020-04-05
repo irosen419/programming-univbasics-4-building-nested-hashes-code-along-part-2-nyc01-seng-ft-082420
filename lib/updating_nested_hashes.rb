@@ -78,3 +78,5 @@ def add_characters
    epic_tragedy
    binding.pry
 end
+
+add_characters
