@@ -1,4 +1,3 @@
-require 'pry'
 
 def update_status
    epic_tragedy = {
@@ -76,7 +75,4 @@ def add_characters
 
    # After your code, the following line will return the altered hash
    epic_tragedy
-   binding.pry
 end
-
-add_characters
